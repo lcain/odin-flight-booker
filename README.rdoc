@@ -1,10 +1,12 @@
-== README
+#READ ME
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The Odin Flight Booker is part of the Odin Project. 
+Please find the linke here: 
+#####http://www.theodinproject.com/ruby-on-rails/building-advanced-forms
 
-Things you may want to cover:
 
+
+<!-- 
 * Ruby version
 
 * System dependencies
@@ -21,8 +23,6 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+ -->
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
