@@ -28,8 +28,8 @@ ActiveRecord::Schema.define(version: 20160103035537) do
   create_table "flights", force: :cascade do |t|
     t.string   "from_airport"
     t.string   "to_airport"
-    t.date     "depature_date"
-    t.string   "depature_time"
+    t.date     "departure_date"
+    t.string   "departure_time"
     t.integer  "flight_duration"
     t.datetime "created_at",      null: false
     t.datetime "updated_at",      null: false

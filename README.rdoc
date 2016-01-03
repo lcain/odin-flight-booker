@@ -1,12 +1,12 @@
 #READ ME
 
 The Odin Flight Booker is part of the Odin Project. 
-Please find the linke here: 
+Link here: 
 #####http://www.theodinproject.com/ruby-on-rails/building-advanced-forms
 
 
 
-<!-- 
+
 * Ruby version
 
 * System dependencies
@@ -23,6 +23,6 @@ Please find the linke here:
 
 * Deployment instructions
 
- -->
+
 
 
