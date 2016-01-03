@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
-root "pages#index"
+root :to => "flights#index" 
+
+get '/flights' => 'flights#index'
 
 end

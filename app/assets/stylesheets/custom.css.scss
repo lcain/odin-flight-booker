@@ -2,5 +2,38 @@
 @import "bootstrap";
 
 h1 {
-  color: blue;
+  color: black;
+  text-align: center;
 }
+
+body {
+  background-color: gray;
+}
+
+#dropdown {
+  display: inline-block;
+  text-align: center;
+  border: 2px solid green;
+  padding: 5em;
+  width: 300px;
+}
+
+#dropdown2 {
+  display: inline-block;
+  text-align: center;
+  border: 2px solid red;
+  padding: 5em;
+  width: 300px
+}
+
+#container {
+  text-align: center;
+}
+
+button {
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 2em;
+}
+

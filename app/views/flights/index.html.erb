@@ -1,0 +1,48 @@
+<h1>Odin Flight Booker</h1>
+
+
+<div id="container">
+
+ <form action="/flights">
+
+    <div id="dropdown">
+      <h3>Departing:</h3>
+      <select name="airport_id">
+        <%= @airports.each do |airport| %>
+          <option value="<%= airport.id %>"><%= airport.name %></option>
+        <% end %>
+      </select>
+    </div>
+
+
+    <div id="dropdown">
+    <h3>Arriving:</h3>
+      <select name="airport_id">
+        <%= @airports.each do |airport| %>
+          <option value="<%= airport.id %>"><%= airport.name %></option>
+        <% end %>
+      </select>
+    </div><br>
+
+    <div id="dropdown2">
+    <h3>Date:</h3>
+      <select name="flight_id">
+        <%= @flights.each do |flight| %>
+          <option value="<%= flight.id %>"><%= flight.departure_date %></option>
+        <% end %>
+      </select>
+    </div>
+
+
+    <div id="dropdown2">
+    <h3>Passengers:</h3>
+      <select name="number_of_passengers">
+        <%= @passengers.each do |number| %>
+          <option><%= number %></option>
+        <% end %>
+      </select>
+    </div>
+
+    <button>Search</button>
+ </form>
+</div>
