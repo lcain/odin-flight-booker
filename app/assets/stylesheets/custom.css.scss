@@ -13,21 +13,24 @@ body {
 #dropdown {
   display: inline-block;
   text-align: center;
-  border: 2px solid green;
-  padding: 5em;
+  padding: 2em;
   width: 300px;
 }
 
 #dropdown2 {
   display: inline-block;
   text-align: center;
-  border: 2px solid red;
-  padding: 5em;
+  padding: 2em;
   width: 300px
 }
 
 #container {
   text-align: center;
+  border: 2px solid black;
+  border-radius: 1em;
+  width: 700px;
+  margin: auto;
+  background-color: rgba(222, 222, 222, .5);
 }
 
 button {
@@ -35,5 +38,6 @@ button {
   display: block;
   margin: auto;
   margin-top: 2em;
+  margin-bottom: 2em;
 }
 
